@@ -1,19 +1,6 @@
 class LargestProduct {
   constructor(number) {
-    // ex: 1234567890
-    // ["1", "2", "3", "4", "5"] = 120
-    // ["2", "3", "4", "5", "6"] = 720
-    // ...
-
-    // change to string, split into array
-    // for loop or while loop? through array
-    // take first 5 index/position, multiply
-    // take second 5, multiply ...
-    // check if new product is larger than previous, if largest, return product and return 1st index/position of that array
-
     this.number = number;
-    // this.largestProduct = 0;
-    // this.largestProductPosition = 0;
     let product = 0;
     let position = 0;
 
